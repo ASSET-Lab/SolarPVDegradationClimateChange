@@ -11,7 +11,8 @@ Updated 7/23/2024 HW
 ## Python Environment
 The python environment is deployed in Linux and pipeline managed using slurm computing cluster platform at Rosen Center for Advanced Computing at Purdue University and Advanced Research Computing at the University of Michigan.
 
-The code contains core process of the research, including:
+## calculation code
+The calculation code in `/calculation` folder contains core process of the research, including:
 - **01_slurm_command.py**    
     - Slurm command script for submitting batch jobs.
       
@@ -48,6 +49,16 @@ The code contains core process of the research, including:
 - **tas_abnormal_from_qin.csv**    
     - CSV file containing abnormal temperature data for 20 CMIP6 GCMs.
 
+## visualization code
+The visualization code in `/visualization` folder contains visualization code for our research, including:
+- **Capacity_under_risk.ipynb**    
+      
+- **Increased_risk_area.ipynb**
+- 
+- **Regional_T98_map.ipynb**    
+      
+- **Roofpotential_capacity.ipynb**
+- 
 And more relevant script and visualization script is coming soon.
 
 ## Data Availability
