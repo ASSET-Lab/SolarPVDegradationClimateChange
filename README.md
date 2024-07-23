@@ -4,7 +4,9 @@ This is the Code repository for publication on accelerating degradation of rooft
 
 Key contributors: Haochi Wu, Michael Craig at the University of Michigan, & Qinqin Kong at Purdue Univerisity.
 
-Updated 7/23/2024 HW
+Updated: 7/23/2024 HW
+Contact: haochiw@umich.edu (Haochi Wu)
+
 
 ![Project](Illustr.png)
 
