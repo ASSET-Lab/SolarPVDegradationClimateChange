@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#SBATCH -A standby
+#SBATCH -N 1 -n 64
+
+source ~/.bashrc
+module load anaconda
+conda activate RPV
+
+#set inputs to Python script
+model_index=$1
+mounting_config=$2
+year_list=$3
+
+
+echo "Running: $model_index $mounting_config $year_start $year_end"
+
+#run script with inputs
+python /home/wu2411/Multi_GCMs_PVTemp_Vec/02_Slurm_PVTemp_Vectorized_Calculation_ERA5.py $model_index $mounting_config $year_list
+
+exit
