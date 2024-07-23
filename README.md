@@ -2,9 +2,12 @@
 
 This is the Code repository for publication on accelerating degradation of rooftop solar photovoltaics under climate change.
 
+Download the dateset through the link as described in 'data section' (not here due to size of 140 **Terabytes (TB)** ).
+
 Key contributors: Haochi Wu, Michael Craig at the University of Michigan, & Qinqin Kong at Purdue Univerisity.
 
 Updated: 7/23/2024 HW
+
 Contact: haochiw@umich.edu (Haochi Wu)
 
 
