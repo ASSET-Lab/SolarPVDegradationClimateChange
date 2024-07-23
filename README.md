@@ -54,27 +54,27 @@ The visualization code in `/visualization` folder contains visualization code fo
 - **Capacity_under_risk.ipynb**    
       
 - **Increased_risk_area.ipynb**
-- 
+
 - **Regional_T98_map.ipynb**    
       
 - **Roofpotential_capacity.ipynb**
-- 
-And more relevant script and visualization script is coming soon.
+
+And more relevant pre/post processing code and visualization script is coming soon.
 
 ## Data Availability
 CMIP6 GCMs temperature and energy generation dataset: https://transfer.rcac.purdue.edu/file-manager?origin_id=e7eecae4-ab46-4016-b8f8-ba0379421b0b&origin_path=%2F
  
-CMIP6 temperature dataset downsacled and bias-corrected by ERA5 dataset: https://transfer.rcac.purdue.edu/file-manager?origin_id=64916c8c-1c24-4716-ba90-a06fc412e778&origin_path=%2F
+CMIP6 temperature dataset downscaled and bias-corrected by ERA5 dataset: https://transfer.rcac.purdue.edu/file-manager?origin_id=64916c8c-1c24-4716-ba90-a06fc412e778&origin_path=%2F
 
 The dataset for future rooftop PV temperature is about **130 Terabytes (TB)** in size and is freely available at Purdue Fortress long-term archive, accessible via Globus:
 
 Users can log into Globus ([https://www.globus.org](https://www.globus.org)) using their Globus ID, Gmail, GitHub handle, ORCID ID, or institutional account. 
 
-Upon login, the dataset can be accessed by searching the following universally unique identifiers (UUIDs): "e7eecae4-ab46-4016-b8f8-ba0379421b0b" for the CMIP6 GCMs temperature and energy generation dataset, and "64916c8c-1c24-4716-ba90-a06fc412e778" for the CMIP6 temperature dataset downsacled and bias-corrected by ERA5 dataset. 
+Upon login, the dataset can be accessed by searching the following universally unique identifiers (UUIDs): "e7eecae4-ab46-4016-b8f8-ba0379421b0b" for the CMIP6 GCMs temperature and energy generation dataset, and "64916c8c-1c24-4716-ba90-a06fc412e778" for the CMIP6 temperature dataset downscaled and bias-corrected by ERA5 dataset. 
 
 For review purposes, reviewers can log into Globus with the following credentials: Globus ID "scientificdatareviewer2024@globusid.org" and password "review2024".
 
-Additional related varibales after same bias correction process(i.e. Energy Output, Air Temperature, Relative Humidity) are not here due to size and extra effort to upload.
+Additional related variables after same bias correction process(i.e. Energy Output, Air Temperature, Relative Humidity) are not here due to size and extra effort to upload.
 
 ## Data Description
 ### Rooftop PV under CMIP6 GCMs Climate Data:
@@ -85,7 +85,7 @@ total of 150 * 20 = 3,080 years of data.
 The size of the temperature files for CMIP6 after bias correction is approximately 33GB. This dataset includes hourly temperature data for 27 ERA5 sample years, 20 GCM models, and 7 warming targets, resulting in a total of 7 * 20 * 27 = 3,780 years of data.
 
 ### Derived 98 quantile temperature (T98) Data:
-Based on above dataset, we have calculated the typical T98 temperature. The global map data is provided at a resolution of 0.25° * 0.25°, with a file size of approximately 7MB. with total of 7 * 20 * 27 = 3,780 years of data.
+Based on the above dataset, we have calculated the typical T98 temperature. The global map data is provided at a resolution of 0.25° * 0.25°, with a file size of approximately 7MB. with total of 7 * 20 * 27 = 3,780 years of data.
 
 ### the 20 CMIP6 GCMs are listed below:
 
